@@ -1,3 +1,7 @@
+// single inheritance with: extends
+// multiple interfaces using :implements
+// code sharing using :mixin / with
+
 class Student {
   String? name;
 
