@@ -1,11 +1,11 @@
-import 'dart:ffi';
-
+//class --> Student Grade System
 class Student{
   String name;
   double grade;
   
   //parameterized constructor
   Student(this.name, this.grade);
+  
 
   String gradeCategory(){
     if(grade >= 90){
@@ -31,7 +31,9 @@ class Student{
 }
 
 void main(){
-  Student st1 = new Student("Afjal Hossain", 62);
+
+  // Object--->Actual Student
+  Student st1 = new Student("Afjal Hossain", 92);
 
   print("Student Name: ${st1.name}");
   print("Student Grade: ${st1.grade}");
